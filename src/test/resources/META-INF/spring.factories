@@ -1,1 +1,1 @@
-org.springframework.test.context.ContextCustomizerFactory = com.lincs.microapp.config.TestContainersSpringContextCustomizerFactory
+org.springframework.test.context.ContextCustomizerFactory = com.enedis.habilitation.config.TestContainersSpringContextCustomizerFactory

@@ -1,0 +1,38 @@
+{
+  "applications": ["habilitation"],
+  "changelogDate": "20220821151423",
+  "clientRootFolder": "habilitation",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "habilitation",
+  "fields": [
+    {
+      "fieldName": "idHabilitation",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cnAlex",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "siren",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateMaj",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Product sold by the Online store",
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "habilitation",
+  "name": "Habilitation",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

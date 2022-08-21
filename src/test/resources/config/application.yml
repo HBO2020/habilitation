@@ -26,20 +26,6 @@ spring:
   cloud:
     config:
       enabled: false
-    stream:
-      kafka:
-        binder:
-          replicationFactor: 1
-          auto-create-topics: true
-        bindings:
-          binding-in-sse:
-            destination: sse-topic
-            content-type: text/plain
-            group: habilitation
-          binding-out-sse:
-            destination: sse-topic
-            content-type: text/plain
-            group: habilitation
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
     contexts: test
